@@ -1,0 +1,224 @@
+body {
+    font-family: 'Germania One', system-ui;
+    background-color: #000; /* Чёрный фон */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  nav {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffffff; /* Серый фон для навигации */
+    padding: 10px 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  header {
+    text-align: center;
+    position: relative;
+  }
+  
+  .cvk-large-logo {
+    width: 300px;
+    height: auto;
+  }
+  
+  .animated-text {
+    font-size: 2em;
+    margin-top: 20px;
+    animation: fadeInUp 1.5s ease-in-out;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  section {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .feature-box {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .animated-square {
+    width: 250px;
+    height: 150px;
+    background-color: #fff;
+    color: #000000;
+    text-align: center;
+    line-height: 130px;
+    margin: 10px 50px;
+    border-radius: 10px;
+    position: relative;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .description-text {
+    font-size: 1.2em;
+    margin-top: 2px;
+    text-align: center;
+  }
+  
+  aside {
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8); /* Чёрный полупрозрачный фон */
+    padding: 20px;
+  }
+  
+/* ... (ваш предыдущий CSS-код) */
+
+footer {
+    background-color: #1a1a1a;
+    padding: 10px;
+    text-align: center;
+    width: 100%; /* Растягиваем фон на всю ширину */
+    position: absolute;
+    bottom: 0;
+  }
+  .photos .photo {
+    width: 300px; /* Желаемая ширина фотографий */
+    height: auto; /* Высота будет автоматически рассчитана для сохранения пропорций */
+    border-radius: 8px;
+  }
+  .photos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .photo-container {
+    width: 300px; /* Увеличиваем ширину контейнера */
+    height: 200px; /* Меняем высоту контейнера */
+    background-color: #ffffff; /* Темный серый цвет фона */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  
+  .photos .photo {
+    width: 90%; /* Ширина фотографии 100% контейнера */
+    height: auto; /* Высота будет автоматически рассчитана для сохранения пропорций */
+    border-radius: 0px;
+  }
+  
+  .small-text {
+    margin-top: 10px;
+    font-size: 0.8em;
+    text-align: center;
+    color: #fff;
+  }
+  .cvk-large-logo {
+    width: 1000px; /* Установите желаемую ширину */
+    height: 200px; /* Высота будет автоматически рассчитана для сохранения пропорций */
+  }
+  /* ... (ваш предыдущий CSS-код) */
+
+nav {
+    background-color: rgba(0, 0, 0, 0.5); /* Черный цвет с 50% прозрачности */
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1; /* Устанавливаем z-index, чтобы навигация находилась выше логотипа */
+  }
+  
+  .cvk-large-logo {
+    width: 600px;
+    height: 400px;
+    margin-top: 1400px; /* Регулируем отступ логотипа от верхнего края страницы */
+    opacity: 0.8; /* Прозрачность логотипа (0 - полностью прозрачно, 1 - полностью непрозрачно) */
+  }
+  
+  /* ... (ваш предыдущий CSS-код) */
+  .animated-text {
+    font-size: 4em; /* Установите желаемый размер текста h1 */
+  }
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.content {
+  text-align: left;
+  padding: 10px;
+}
+.Navi{
+    color: #000;
+    text-align: center;
+    font-size: 25px;
+}
+.ROZUM{
+    padding-bottom: 10px;
+}
+.IDEYA{
+    padding-bottom: 10px;
+}
+.ZBROYA{
+    padding-bottom: 10px;
+}
+@media screen and (max-width: 700px) {
+  /* Стилі для екранів шириною менше 600px */
+}
+
+  
+  
+  
